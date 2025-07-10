@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the following:"
+authors:
+- family-names: Mekulu
+given-names: Kevin
+- family-names: Aqlan
+given-names: Faisal
+- family-names: Yang
+given-names: Hui
+title: "CharMark: Character-Level Markov Modeling to Detect Linguistic Signs of Dementia"
+version: "0.1.0"
+doi: "10.21203/rs.3.rs-6391300/v1"
+date-released: "2025-05-02"
+url: "https://doi.org/10.21203/rs.3.rs-6391300/v1"
