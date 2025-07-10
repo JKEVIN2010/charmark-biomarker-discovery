@@ -21,15 +21,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install nbconvert
 
-      - name: Smoke test CharMark import
+      - name: Smoke-test import
         run: |
           python - << 'EOF'
           from charmark import CharMark
           print("✅ import ok")
           EOF
 
-      - name: Run example notebook
-        uses: nbconvert-org/nbautoexport-action@v1
-        with:
-          path: example.ipynb
+      - name: Execute example notebook
+        run: |
+          jupyter nbconvert --to html --execute example.ipynb --output executed_example.html
