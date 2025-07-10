@@ -32,6 +32,19 @@ pip install -r requirements.txt
 ```
 ---
 
+## 📝 Example Notebook
+
+Want to see CharMark in action?  
+Check out [`example.ipynb`](example.ipynb) for a step-by-step demo using a toy dataset.  
+
+This notebook walks you through:  
+1. Creating a sample CSV  
+2. Extracting steady-state features  
+3. Running PCA, KS tests, and Lasso validation  
+4. Visualizing the character transition network
+
+---
+
 ## Cite Us
 
 If you use **CharMark** in your research, please cite:
