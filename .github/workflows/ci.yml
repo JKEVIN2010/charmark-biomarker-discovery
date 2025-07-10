@@ -9,27 +9,38 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
+      # 1) Check out the repository
       - uses: actions/checkout@v3
 
-      - name: Set up Python
+      # 2) Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
+      # 3) Install requirements plus Jupyter and kernels
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install nbconvert
+          pip install jupyter nbconvert ipykernel
 
+      # 4) Register a python3 kernel for nbconvert
+      - name: Register python3 kernel
+        run: |
+          python -m ipykernel install --user --name python3 --display-name python3
+
+      # 5) Quick smoke-test of your library import
       - name: Smoke-test import
         run: |
           python - << 'EOF'
           from charmark import CharMark
-          print("✅ import ok")
+          print("✅ charmark import ok")
           EOF
 
+      # 6) Execute the example notebook
       - name: Execute example notebook
         run: |
           jupyter nbconvert --to html --execute example.ipynb --output executed_example.html
