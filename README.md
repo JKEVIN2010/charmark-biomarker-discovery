@@ -1,6 +1,8 @@
 # CharMark: Unmasking Cognitive Decline in Everyday Speech
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jkevin2010/charmark-biomarker-discovery/blob/main/example.ipynb)
+[![CI](https://github.com/jkevin2010/charmark-biomarker-discovery/actions/workflows/ci.yml/badge.svg)](https://github.com/jkevin2010/charmark-biomarker-discovery/actions/workflows/ci.yml)
+
 
 Imagine a future where your casual conversation, describing a picture or chatting with a friend, could reveal the earliest whispers of cognitive change.  
 **CharMark** brings that future a step closer. It’s a lightweight Python toolkit that turns plain text transcripts into interpretable “fingerprints” of your speech, helping researchers and clinicians spot subtle signs of dementia before they become unmissable.
