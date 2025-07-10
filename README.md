@@ -29,13 +29,28 @@ By building a first-order Markov chain from your transcript, then computing its 
 git clone https://github.com/yourname/charmark-biomarker-discovery.git
 cd charmark-biomarker-discovery
 pip install -r requirements.txt
-```bash
-
+```
 ---
 
 ## Cite Us
 
-If you use CharMark in your research, please cite:
+If you use **CharMark** in your research, please cite:
 
-> Mekulu K, Aqlan F, Yang H (2025). _CharMark: Character-Level Markov Modeling to Detect Linguistic Signs of Dementia._ Preprint. DOI: 10.21203/rs.3.rs-6391300/v1
+> Mekulu K, Aqlan F, Yang H (2025). *CharMark: Character-Level Markov Modeling to Detect Linguistic Signs of Dementia.* Preprint.  
+> DOI: [10.21203/rs.3.rs-6391300/v1](https://doi.org/10.21203/rs.3.rs-6391300/v1)
+
+BibTeX:
+```bibtex
+@misc{Mekulu2025CharMark,
+  author = {Kevin Mekulu and Faisal Aqlan and Hui Yang},
+  title = {CharMark: Character-Level Markov Modeling to Detect Linguistic Signs of Dementia},
+  year = {2025},
+  doi = {10.21203/rs.3.rs-6391300/v1},
+  url = {https://doi.org/10.21203/rs.3.rs-6391300/v1},
+  note = {Preprint on Research Square}
+}
+
+
+
+
 
