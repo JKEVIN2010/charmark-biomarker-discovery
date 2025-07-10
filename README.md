@@ -2,6 +2,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jkevin2010/charmark-biomarker-discovery/blob/main/example.ipynb)
 [![CI](https://github.com/jkevin2010/charmark-biomarker-discovery/actions/workflows/ci.yml/badge.svg)](https://github.com/jkevin2010/charmark-biomarker-discovery/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15858868.svg)](https://doi.org/10.5281/zenodo.15858868)
+
 
 
 
