@@ -31,7 +31,7 @@ By building a first-order Markov chain from your transcript, then computing its 
 ## Quickstart
 
 ```bash
-git clone https://github.com/yourname/charmark-biomarker-discovery.git
+git clone https://github.com/jkevin2010/charmark-biomarker-discovery.git
 cd charmark-biomarker-discovery
 pip install -r requirements.txt
 ```
